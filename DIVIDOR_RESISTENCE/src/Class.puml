@@ -1,0 +1,62 @@
+@startuml
+
+class Client{
+
++main(args:String[])
+}
+Class SeriesCatalog{
+
+- series :List<Series>
+- SeriesNames :String[]
+- SeriesPrecisions :double[]
+- NormalizedValues: double[][]
++ SeriesCatalog()
++ findSeriesByName(name:String) :Series
+ }
+Class Series{
+    -resistors :List<Resistor>
+   - name: String
+   - precision: double
+   - normalizedValues : double[]
+   - PowerFactors:double[]
+   +  getResistors():List<Resistor>
+   +getName(): String
+   + getPrecision(): double
+   +Series(name:String , normalizedValues: double[], precision: double)
+   + toString():String
+   +makeResistors()
+   }
+Class Resistor{
+    -resistance: double
+    -series:Series
+    +getResistance():double
+    +getSeries():Series
+    +Resistor(resistance:double, series:Series )
+    +setSeries( name:String,  normalizedValues:double[], precision: double)
+    +setSeries(series:Series)
+    + toString():String
+  }
+Class VoltageDivider{
+    - resistor1: Resistor
+    - resistor2: Resistor
+    - coincidence:double
+    +getResistor1():Resistor
+    +getResistor2():Resistor
+    +getCoincidence():Double
+    +VoltageDivider( r1:Resistor,  r2:Resistor,  coincidence:double)
+    +compareTo(o:VoltageDivider):int
+    + toString():String
+}
+Class VoltageDividerCalculation{
++ calculate(voltageDivision: double  , coincidence:double  ,s:Series ):List<VoltageDivider>
+}
+interface Comparable<T>{
++compareTo(o:VoltageDivider):int
+}
+
+SeriesCatalog *-->"1..* hola"Series
+SeriesCatalog "1"*-->"*"Resistor
+VoltageDivider ..|> Comparable
+VoltageDivider x-->"1 resistor 1" Resistor
+VoltageDivider x-->"1 resistor 2" Resistor
+@enduml

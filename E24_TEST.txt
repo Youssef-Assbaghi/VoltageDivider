@@ -1,0 +1,118 @@
+Resistance 1000000.0, series E24, precision 5.0, Resistance 10000.0, series E24, precision 5.0
+voltage division 0.009900990099009901
+coincidence 1.980198019801982
+
+Resistance 100000.0, series E24, precision 5.0, Resistance 1000.0, series E24, precision 5.0
+voltage division 0.009900990099009901
+coincidence 1.980198019801982
+
+Resistance 10000.0, series E24, precision 5.0, Resistance 1000000.0, series E24, precision 5.0
+voltage division 0.9900990099009901
+coincidence 1.980198019801982
+
+Resistance 10000.0, series E24, precision 5.0, Resistance 100.0, series E24, precision 5.0
+voltage division 0.009900990099009901
+coincidence 1.980198019801982
+
+Resistance 1000.0, series E24, precision 5.0, Resistance 100000.0, series E24, precision 5.0
+voltage division 0.9900990099009901
+coincidence 1.980198019801982
+
+Resistance 1000.0, series E24, precision 5.0, Resistance 10.0, series E24, precision 5.0
+voltage division 0.009900990099009901
+coincidence 1.980198019801982
+
+Resistance 100.0, series E24, precision 5.0, Resistance 10000.0, series E24, precision 5.0
+voltage division 0.9900990099009901
+coincidence 1.980198019801982
+
+Resistance 100.0, series E24, precision 5.0, Resistance 1.0, series E24, precision 5.0
+voltage division 0.009900990099009901
+coincidence 1.980198019801982
+
+Resistance 10.0, series E24, precision 5.0, Resistance 1000.0, series E24, precision 5.0
+voltage division 0.9900990099009901
+coincidence 1.980198019801982
+
+Resistance 1.0, series E24, precision 5.0, Resistance 100.0, series E24, precision 5.0
+voltage division 0.9900990099009901
+coincidence 1.980198019801982
+
+Resistance 1000000.0, series E24, precision 5.0, Resistance 100000.0, series E24, precision 5.0
+voltage division 0.09090909090909091
+coincidence 18.181818181818187
+
+Resistance 100000.0, series E24, precision 5.0, Resistance 1000000.0, series E24, precision 5.0
+voltage division 0.9090909090909091
+coincidence 18.181818181818187
+
+Resistance 100000.0, series E24, precision 5.0, Resistance 10000.0, series E24, precision 5.0
+voltage division 0.09090909090909091
+coincidence 18.181818181818187
+
+Resistance 10000.0, series E24, precision 5.0, Resistance 100000.0, series E24, precision 5.0
+voltage division 0.9090909090909091
+coincidence 18.181818181818187
+
+Resistance 10000.0, series E24, precision 5.0, Resistance 1000.0, series E24, precision 5.0
+voltage division 0.09090909090909091
+coincidence 18.181818181818187
+
+Resistance 1000.0, series E24, precision 5.0, Resistance 10000.0, series E24, precision 5.0
+voltage division 0.9090909090909091
+coincidence 18.181818181818187
+
+Resistance 1000.0, series E24, precision 5.0, Resistance 100.0, series E24, precision 5.0
+voltage division 0.09090909090909091
+coincidence 18.181818181818187
+
+Resistance 100.0, series E24, precision 5.0, Resistance 1000.0, series E24, precision 5.0
+voltage division 0.9090909090909091
+coincidence 18.181818181818187
+
+Resistance 100.0, series E24, precision 5.0, Resistance 10.0, series E24, precision 5.0
+voltage division 0.09090909090909091
+coincidence 18.181818181818187
+
+Resistance 10.0, series E24, precision 5.0, Resistance 100.0, series E24, precision 5.0
+voltage division 0.9090909090909091
+coincidence 18.181818181818187
+
+Resistance 10.0, series E24, precision 5.0, Resistance 1.0, series E24, precision 5.0
+voltage division 0.09090909090909091
+coincidence 18.181818181818187
+
+Resistance 1.0, series E24, precision 5.0, Resistance 10.0, series E24, precision 5.0
+voltage division 0.9090909090909091
+coincidence 18.181818181818187
+
+Resistance 1000000.0, series E24, precision 5.0, Resistance 1000000.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+Resistance 100000.0, series E24, precision 5.0, Resistance 100000.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+Resistance 10000.0, series E24, precision 5.0, Resistance 10000.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+Resistance 1000.0, series E24, precision 5.0, Resistance 1000.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+Resistance 100.0, series E24, precision 5.0, Resistance 100.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+Resistance 10.0, series E24, precision 5.0, Resistance 10.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+Resistance 1.0, series E24, precision 5.0, Resistance 1.0, series E24, precision 5.0
+voltage division 0.5
+coincidence 100.0
+
+
+Process finished with exit code 0
